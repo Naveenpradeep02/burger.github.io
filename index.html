@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burger</title>
+    <!-- ================= css ================== -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- ============= remixicon =============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+    />
+    <script src="./assets/js/scrollreveal.min.js"></script>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav_logo">
+          <div>
+            <img src="./assets/img/logo-burger.svg" alt="loho" />
+          </div>
+          Burger
+        </a>
+        <div class="nav_menu">
+          <ul class="nav_list">
+            <li><a href="#home" class="nav_link">Home</a></li>
+            <li><a href="#recipe" class="nav_link">Recipe</a></li>
+            <li><a href="#popular" class="nav_link">Popular</a></li>
+            <li><a href="#delivery" class="nav_link">Delivery</a></li>
+            <li><a href="#contact" class="nav_link">Contact</a></li>
+          </ul>
+          <div class="nav_close">
+            <i class="ri-close-large-line"></i>
+          </div>
+        </div>
+        <div class="nav_toggle">
+          <i class="ri-apps-2-fill"></i>
+        </div>
+      </nav>
+    </header>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home_container container grid">
+          <div class="home_data">
+            <h1 class="home_tittle">
+              Love Every <br />
+              Burger
+            </h1>
+            <p class="home_discription">
+              We serve the best burgers on the planet, paving the way for
+              cooking and preparing hot, delicious burgers.
+            </p>
+            <a href="#" class="button"> Bite Now </a>
+            <img src="./assets/img/sticker-potatoes.svg" class="home_sticker" />
+          </div>
+          <div class="home_img">
+            <img src="./assets/img/home-burger.png" class="home_burger" />
+            <img src="./assets/img/home-dish.png" class="home_dish" />
+
+            <img
+              src="./assets/img/home-potato.png"
+              class="home_ingredient home_potato-1"
+            />
+            <img
+              src="./assets/img/home-potato.png"
+              class="home_ingredient home_potato-2"
+            />
+            <img
+              src="./assets/img/home-tomato.png"
+              class="home_ingredient home_tomato-1"
+            />
+            <img
+              src="./assets/img/home-tomato.png"
+              class="home_ingredient home_tomato-2"
+            />
+            <img
+              src="./assets/img/home-lettuce.png"
+              class="home_ingredient home_lettuce-1"
+            />
+            <img
+              src="./assets/img/home-lettuce.png"
+              class="home_ingredient home_lettuce-2"
+            />
+          </div>
+        </div>
+      </section>
+      <!--==================== RECIPE ====================-->
+      <section class="recipe section" id="recipe">
+        <h2 class="section_title">Our Secret Recipe</h2>
+        <div class="recipe_container container grid">
+          <div class="recipe_images">
+            <img src="./assets/img/recipe-burger.png" class="recipe_img" />
+          </div>
+          <div class="recipe_data">
+            <!-- card1 -->
+            <div class="recipe_cart">
+              <div class="recipe_box">
+                <img src="./assets/img/recipe-bread.png" />
+              </div>
+              <div>
+                <h3 class="recipe_title">Bread</h3>
+                <p class="recipe_discription">
+                  Fresh bread, baked to perfection.
+                </p>
+              </div>
+            </div>
+            <!-- card2 -->
+            <div class="recipe_cart">
+              <div class="recipe_box">
+                <img src="./assets/img/recipe-cheese.png" />
+              </div>
+              <div>
+                <h3 class="recipe_title">Cheese</h3>
+                <p class="recipe_discription">
+                  Cheese for a fantastic and healthy future.
+                </p>
+              </div>
+            </div>
+            <!-- card3 -->
+            <div class="recipe_cart">
+              <div class="recipe_box">
+                <img src="./assets/img/recipe-meat.png" />
+              </div>
+              <div>
+                <h3 class="recipe_title">Meat</h3>
+                <p class="recipe_discription">100% pure beef, big and meaty.</p>
+              </div>
+            </div>
+            <!-- card4 -->
+            <div class="recipe_cart">
+              <div class="recipe_box">
+                <img src="./assets/img/recipe-vegetable.png" />
+              </div>
+              <div>
+                <h3 class="recipe_title">Vegetables</h3>
+                <p class="recipe_discription">
+                  Vegetables full of the essence of nature and organic.
+                </p>
+              </div>
+            </div>
+            <!-- card5 -->
+            <div class="recipe_cart">
+              <div class="recipe_box">
+                <img src="./assets/img/recipe-sauces.png" />
+              </div>
+              <div>
+                <h3 class="recipe_title">Sauces</h3>
+                <p class="recipe_discription">
+                  Fresh sauces, delicious for the palate.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--==================== POPULAR ====================-->
+      <section class="popular section" id="popular">
+        <h2 class="section_title">
+          Most Devoured <br />
+          Burgers
+        </h2>
+        <div class="popular_container container grid">
+          <!-- card1 -->
+          <artical class="papular_card">
+            <img
+              src="./assets/img/popular-burger-chicken.png"
+              class="popular_img"
+            />
+            <h2 class="popular_title">
+              Chicken <br />
+              Burger
+            </h2>
+            <span class="popular_price">₹99</span>
+            <button class="popular_button">
+              <i class="ri-shopping-bag-3-fill"></i>
+            </button>
+          </artical>
+          <!-- card2 -->
+          <artical class="papular_card">
+            <img
+              src="./assets/img/popular-burger-meat.png"
+              class="popular_img"
+            />
+            <h2 class="popular_title">
+              Meat <br />
+              Burger
+            </h2>
+            <span class="popular_price">₹149</span>
+            <button class="popular_button">
+              <i class="ri-shopping-bag-3-fill"></i>
+            </button>
+          </artical>
+          <!-- card3 -->
+          <artical class="papular_card">
+            <img
+              src="./assets/img/popular-burger-grill.png"
+              class="popular_img"
+            />
+            <h2 class="popular_title">
+              Grill <br />
+              Burger
+            </h2>
+            <span class="popular_price">₹199</span>
+            <button class="popular_button">
+              <i class="ri-shopping-bag-3-fill"></i>
+            </button>
+          </artical>
+          <!-- card4 -->
+          <artical class="papular_card">
+            <img
+              src="./assets/img/popular-burger-classic.png"
+              class="popular_img"
+            />
+            <h2 class="popular_title">
+              Classic <br />
+              Burger
+            </h2>
+            <span class="popular_price">₹129</span>
+            <button class="popular_button">
+              <i class="ri-shopping-bag-3-fill"></i>
+            </button>
+          </artical>
+          <!-- card5 -->
+          <artical class="papular_card">
+            <img
+              src="./assets/img/popular-burger-big.png"
+              class="popular_img"
+            />
+            <h2 class="popular_title">
+              Big <br />
+              Burger
+            </h2>
+            <span class="popular_price">₹299</span>
+            <button class="popular_button">
+              <i class="ri-shopping-bag-3-fill"></i>
+            </button>
+          </artical>
+        </div>
+      </section>
+      <!--==================== DELIVERY ====================-->
+      <section class="delivery section" id="delivery">
+        <div class="delivery-container container grid">
+          <div class="delivery-data">
+            <h2 class="section_title">Fast Delivery</h2>
+            <p class="delivery_discription">
+              Place your order for your favorite burger and we will deliver it
+              to your door in minutes,get in touch and don't leave hungry
+            </p>
+            <a href="#" class="button">Contact Now</a>
+            <img
+              src="./assets/img/sticker-glass.svg"
+              class="delivery_sticker"
+            />
+          </div>
+          <img src="./assets/img/delivery-burger.png" class="delivery_imgs" />
+        </div>
+      </section>
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <div class="contact_container container grid">
+          <h2 class="section_title">Contact Now</h2>
+          <div class="contact_content grid">
+            <div class="contact_data grid">
+              <div>
+                <h3 class="contact_title">Write Us</h3>
+                <div class="contact_socialmedia">
+                  <a href="" target="_blank">
+                    <i class="ri-whatsapp-fill"></i>
+                  </a>
+                  <a href="" target="_blank">
+                    <i class="ri-facebook-circle-fill"></i>
+                  </a>
+                  <a href="" target="_blank">
+                    <i class="ri-telegram-fill"></i>
+                  </a>
+                </div>
+              </div>
+              <div>
+                <h3 class="contact_title">Call Us and Order</h3>
+                <address class="contact_info">
+                  +91 99887722110 <br />
+                  +91 99887722330
+                </address>
+              </div>
+              <div>
+                <h3 class="contact_title">Find Us here</h3>
+                <address class="contact_info">
+                  Dubai - Dubai kurukku sandhu <br />
+                  pincode - 600-028
+                </address>
+              </div>
+            </div>
+            <div class="contact_images">
+              <img src="./assets/img/contact-man.png" class="contact_img" />
+            </div>
+          </div>
+          <img
+            src="./assets/img/sticker-burger.svg"
+            class="contact_sticker_1"
+          />
+          <img src="./assets/img/sticker-soda.svg" class="contact_sticker_2" />
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer_container container grid">
+        <a href="#" class="footer_logo">Burger</a>
+        <div class="footer_content grid">
+          <a href="#" class="footerlink">Terms & Agreements</a>
+          <a href="#" class="footerlink">Privacy policy</a>
+          <div class="footer_social">
+            <a href="" target="_blank">
+              <i class="ri-facebook-circle-fill"></i>
+            </a>
+            <a href="" target="_blank">
+              <i class="ri-instagram-fill"></i>
+            </a>
+            <a href="" target="_blank">
+              <i class="ri-twitter-fill"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--==================== SCROLL UP ====================-->
+    <a href="" class="scrollup">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!-- ========================= js ===================== -->
+    <script src="./assets/js/main.js"></script>
+    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+  </body>
+</html>
